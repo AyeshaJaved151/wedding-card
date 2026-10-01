@@ -100,17 +100,27 @@ addEventListener("popstate", async () => {
     
     });
 
- document.body.innerHTML = `
+    document.body.innerHTML = `
     <div class="closed-page">
-        <h1>We would be truly happy to have you with us on our special day.
-           Please do join us and make our celebration even more memorable with your presence. ❤️
+        <div class="closing-card">
+            <h1>Thank You ❤️</h1>
 
-           We’ll be waiting to welcome you!
-        </h1>
+            <p>
+                We would be truly happy to have you with us<br>
+                on our special day.
+            </p>
+
+            <p>
+                Please do come and celebrate<br>
+                this beautiful moment with us.
+            </p>
+
+            <div class="waiting">
+                We’ll be waiting to welcome you!
+            </div>
+        </div>
     </div>
  `;
-
-document.body.style.background = "#eee5d7";
 
 
 });

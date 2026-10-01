@@ -815,3 +815,44 @@ main {
 #open {
     pointer-events: none;
 }
+
+.closed-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #eee5d7;
+    padding: 25px;
+}
+
+.closing-card {
+    width: min(90%, 600px);
+    padding: 50px 30px;
+    border: 1px solid #ad8441;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 15px 40px rgba(80, 55, 30, 0.18);
+}
+
+.closing-card h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 48px;
+    color: #9a7438;
+    margin-bottom: 25px;
+}
+
+.closing-card p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 21px;
+    line-height: 1.6;
+    color: #29231f;
+    margin: 12px 0;
+}
+
+.waiting {
+    margin-top: 25px;
+    font-family: "Great Vibes", cursive;
+    font-size: 27px;
+    color: #9a7438;
+}
