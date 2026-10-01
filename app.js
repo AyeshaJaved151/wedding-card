@@ -88,15 +88,21 @@ addEventListener("popstate", async () => {
 
     title: "See You There",
 
-    text:
-        "Thank you for accepting our invitation.",
+    text: "Thank you for accepting our invitation.",
 
     confirmButtonText: "Close",
 
-    confirmButtonColor: "#9a7438"
+    confirmButtonColor: "#9a7438",
 
-});
+    allowOutsideClick: false,
 
-window.close();
+    allowEscapeKey: false
+    
+    });
+
+document.body.innerHTML = "";
+
+document.body.style.background = "#eee5d7";
+
 
 });
