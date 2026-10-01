@@ -97,9 +97,18 @@ addEventListener("popstate", async () => {
     allowOutsideClick: false,
 
     allowEscapeKey: false
-
+    
     });
 
+ document.body.innerHTML = `
+    <div class="closed-page">
+        <h1>We would be truly happy to have you with us on our special day.
+           Please do join us and make our celebration even more memorable with your presence. ❤️
+
+           We’ll be waiting to welcome you!
+        </h1>
+    </div>
+ `;
 
 document.body.style.background = "#eee5d7";
 
