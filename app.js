@@ -84,18 +84,19 @@ addEventListener("popstate", async () => {
 
     shown = true;
 
-
     await Swal.fire({
 
-        title: "See You There",
+    title: "See You There",
 
-        text:
-            "Thank you for accepting our invitation.",
+    text:
+        "Thank you for accepting our invitation.",
 
-        confirmButtonText: "Close",
+    confirmButtonText: "Close",
 
-        confirmButtonColor: "#9a7438"
+    confirmButtonColor: "#9a7438"
 
-    });
+});
+
+window.close();
 
 });
