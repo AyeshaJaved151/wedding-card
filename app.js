@@ -97,10 +97,9 @@ addEventListener("popstate", async () => {
     allowOutsideClick: false,
 
     allowEscapeKey: false
-    
+
     });
 
-document.body.innerHTML = "";
 
 document.body.style.background = "#eee5d7";
 
